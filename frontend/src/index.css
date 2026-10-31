@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { -webkit-text-size-adjust: 100%; }
+  body { @apply bg-white font-sans text-ink antialiased; }
+  :focus-visible { outline: none; box-shadow: 0 0 0 4px rgba(0, 107, 99, 0.35); border-radius: 6px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}

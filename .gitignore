@@ -1,0 +1,9 @@
+# Chặn thư viện nặng
+backend/venv/
+frontend/node_modules/
+__pycache__/
+*.pyc
+
+# Chặn file bảo mật
+.env
+.DS_Store
